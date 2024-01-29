@@ -7,3 +7,8 @@ Feature: Calculator
     Given I have a calculator
     When I add 5 and 7
     Then the result should be 12
+
+  Scenario: Subtraction
+    Given I have a calculator
+    When I subtract 7 from 12
+    Then the result should be 5
